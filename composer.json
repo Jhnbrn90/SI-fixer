@@ -1,0 +1,26 @@
+{
+    "name": "jhnbrn90/si-fixer",
+    "description": "Indicate and fix style errors in experimental procedures (supporting information) for organic synthesis.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Braun",
+            "email": "johnbraun@pm.me"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JhnBrn90\\SIfixer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JhnBrn90\\SIfixer\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
